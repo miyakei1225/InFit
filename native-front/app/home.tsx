@@ -3,11 +3,9 @@ import React from 'react'
 
 const home = () => {
   return (
-    <NativeBaseProvider>
-      <Box>
-        <Button>aaa</Button>
-      </Box>
-    </NativeBaseProvider>
+    <Box>
+      <Button colorScheme={'red'}>aaa</Button>
+    </Box>
   )
 }
 
