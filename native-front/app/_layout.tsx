@@ -1,6 +1,7 @@
 import { Tabs } from 'expo-router'
-import { NativeBaseProvider } from 'native-base'
+import { NativeBaseProvider, Text } from 'native-base'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
+import { ClerkProvider, SignedIn, SignedOut } from '@clerk/clerk-expo'
 
 export default function Layout() {
   return (

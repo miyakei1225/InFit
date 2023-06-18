@@ -8,7 +8,7 @@ export default function Page() {
       <Text color={'red'} bgColor={'red'}>
         aaa
       </Text>
-      <Link href="/home">ホーム画面へ</Link>
+      <Link href="/signIn">ホーム画面へ</Link>
     </Center>
   )
 }
