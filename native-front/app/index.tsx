@@ -1,16 +1,18 @@
 import { useRouter, Link } from 'expo-router'
-import { Button, Center, NativeBaseProvider, Text } from 'native-base'
+import { Box, Button, Center, NativeBaseProvider, Text } from 'native-base'
 
-export default function Page() {
+const Page = () => {
   const router = useRouter()
   return (
-    <NativeBaseProvider>
+    <Box>
       <Center mt={'4'}>
         <Text color={'red'} bgColor={'red'}>
           aaa
         </Text>
       </Center>
       <Link href="/home">ホーム画面へ</Link>
-    </NativeBaseProvider>
+    </Box>
   )
 }
+
+export default Page
