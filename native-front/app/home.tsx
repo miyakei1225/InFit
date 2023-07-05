@@ -32,6 +32,7 @@ const Home = () => {
   const [hasPermission, setHasPermission] = useState(false)
   const [steps, setSteps] = useState(0)
 
+  /*
   useEffect(() => {
     appleHealthKit.initHealthKit(permissions, (error: string) => {
       if (error) {
@@ -59,6 +60,7 @@ const Home = () => {
       setSteps(results.value)
     })
   }, [hasPermission])
+  */
 
   return (
     <Box>
